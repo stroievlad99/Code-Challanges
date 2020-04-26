@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidFundamentals</string>
+    <string name="movie_name">Movie name</string>
+    <string name="save">save</string>
+    <string name="budget">Budget ($)</string>
+    <string name="on_off">On/Off</string>
+    <string name="search">Search movies..</string>
+</resources>

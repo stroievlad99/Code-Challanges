@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="@color/background"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="This is an Orange TextView"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="@color/verde"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="This is a Green TextView"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size"></TextView>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="This is a Blue TextView"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size"></TextView>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+       >
+
+        <Button
+            android:layout_width="8dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#22448b"
+            android:padding="25dp"
+            android:text="This is a button"></Button>
+
+        <ImageView
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_margin="22dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/pensula"></ImageView>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#32b614"
+            android:padding="25dp"
+            android:text="This is a green button"
+
+            ></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#eea213"
+        android:padding="15dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="This is an edit text"
+            android:textColor="#6b6458"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="This is a new edit text"
+            android:textColor="#6b6458"></EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22d6db"
+        >
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notify me :)"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+
+            ></CheckBox>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto backup"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="9dp"
+            android:textSize="19sp"
+            android:textColor="@color/black"></TextView>
+     <Switch
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="30dp"
+         android:layout_marginTop="9dp"
+         android:textSize="15sp"></Switch>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RatingBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="4"
+            android:stepSize="1"
+            ></RatingBar>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#22d6db"
+        >
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="18dp"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textSize="30sp">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textSize="30sp">
+
+            </RadioButton>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+

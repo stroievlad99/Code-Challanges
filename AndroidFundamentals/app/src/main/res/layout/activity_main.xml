@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:padding="8dp"
+        android:text="@string/movie_name"
+        android:gravity="center"
+        android:textSize="@dimen/font_medium"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_margin="@dimen/space_small"></TextView>
+<EditText
+    android:layout_width="match_parent"
+    android:hint="Insert movie name..."
+    android:text="sdasdasdsa"
+    android:inputType="textCapWords"
+    android:layout_height="wrap_content">
+
+
+</EditText>
+
+
+
+    <ImageView
+    android:layout_width="72dp"
+    android:layout_height="80dp"
+    android:scaleType="centerInside"
+    android:src="@drawable/movie"></ImageView>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/save"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"></Button>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"></View>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and condition"
+        android:checked="true"
+        ></CheckBox>
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Romanian"></RadioButton>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="English"></RadioButton>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French"></RadioButton>
+</RadioGroup>
+    
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="1"></RatingBar>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/on_off"></Switch>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/budget"
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="70"></SeekBar>
+<SearchView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:queryHint="@string/search">
+
+</SearchView>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ProgressBar>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    >
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="5"
+    android:text="Buton 1"
+    android:background="@color/colorAccent"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Buton 2"
+        android:background="@color/colorAccent"></Button>
+</LinearLayout>
+
+
+
+    </LinearLayout>
